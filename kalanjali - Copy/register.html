@@ -1,0 +1,201 @@
+<html>
+<head>
+	<title>Kalanjali 14</title>
+	<script src="js/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-latest.min.js"></script>
+    <script type="text/javascript">
+function setOptions(chosen, selbox) {
+
+selbox.options.length = 0;
+if (chosen == " ") {
+  selbox.options[selbox.options.length] = new Option('Select the event type first',' ');
+setTimeout(setOptions(' ',document.myform.optthree),5);
+}
+if (chosen == "1") {
+  selbox.options[selbox.options.length] = new Option('Sugama Sangeetha','11');
+  selbox.options[selbox.options.length] = new Option('Swara Lahari','12');
+  selbox.options[selbox.options.length] = new Option('Avarthanam','13');
+  selbox.options[selbox.options.length] = new Option('Nada Bhed','14');
+  selbox.options[selbox.options.length] = new Option('Battle of Bands','15');
+  selbox.options[selbox.options.length] = new Option('Gaana Bajaana','16');
+  selbox.options[selbox.options.length] = new Option('Desi Chorus','17');
+  selbox.options[selbox.options.length] = new Option('English Rhythms','18');
+  selbox.options[selbox.options.length] = new Option('Anthakshari (Hindi)','19');
+  selbox.options[selbox.options.length] = new Option('Anthakshari (kannada)','10');
+  
+}
+if (chosen == "2") {
+  selbox.options[selbox.options.length] = new Option('Nupura Nada','21');
+  selbox.options[selbox.options.length] = new Option('Step UP!','22');
+  selbox.options[selbox.options.length] = new Option('Boogie Woogie','23');
+  selbox.options[selbox.options.length] = new Option('Taka-Dhimi-Ta','24');
+  
+
+}
+
+if (chosen == "3") {
+  selbox.options[selbox.options.length] = new Option('Clash of the Titans','31');
+  selbox.options[selbox.options.length] = new Option('Soothing Odes','32');
+  selbox.options[selbox.options.length] = new Option('Minute to Win it!','33');
+  selbox.options[selbox.options.length] = new Option('Video Synthesis ','34');
+  selbox.options[selbox.options.length] = new Option('Air crash','35');
+
+  
+
+}
+if (chosen == "4") {
+  selbox.options[selbox.options.length] = new Option('"Indian floor art" : Rangoli','41');
+  selbox.options[selbox.options.length] = new Option('"ctrl-X ctrl-V" : Collage','42');
+  selbox.options[selbox.options.length] = new Option('"Innovate": Model making','43');
+  selbox.options[selbox.options.length] = new Option('"Flash" : Spot photography','44');
+  selbox.options[selbox.options.length] = new Option('"Not so funny" : Cartooning','45');
+  selbox.options[selbox.options.length] = new Option('"Catch it on canvas" : On Spot Painting','46');
+
+
+}
+
+if (chosen == "5") {
+  selbox.options[selbox.options.length] = new Option('"Keep guessing" : General Quiz','51');
+  selbox.options[selbox.options.length] = new Option('"ctrl-f9" : coding and debugging','52');
+}
+
+if (chosen == "6") {
+  selbox.options[selbox.options.length] = new Option('"See what we mean" : Dumb Charades','61');
+  selbox.options[selbox.options.length] = new Option('"On the streets": Street Play','62');
+  selbox.options[selbox.options.length] = new Option('SKIT','63');
+   
+}
+
+if (chosen == "7") {
+  selbox.options[selbox.options.length] = new Option('Counter Strike 1.6','71');
+  selbox.options[selbox.options.length] = new Option('NFS – Most Wanted','72');
+  selbox.options[selbox.options.length] = new Option('FIFIA 11','73');
+ 
+}
+
+if (chosen == "8") {
+  selbox.options[selbox.options.length] = new Option('"Howzaaat?" Gully Cricket','81');
+  selbox.options[selbox.options.length] = new Option('“Leg it!”:Gully Football','82');
+   selbox.options[selbox.options.length] = new Option('"Ramp on Fire" : Fashion Show','83');
+  selbox.options[selbox.options.length] = new Option('“Show the world” : Art Exhibition','84');
+}
+
+
+}
+</script>
+
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+  <style type="text/css">
+  select{margin: 10px;
+        padding: 10px;
+        font-weight: bolder;
+
+        font-family:Tempus Sans ITC;
+        border-radius: 10px;
+  }
+
+  </style>
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div class="container">
+        
+		<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                  <span class="light">KALANJALI</span> 2014
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li>
+                        <a class="page-scroll" href="event.html">Events</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="schedule.html">Schedule</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    
+    <form name="myform">
+    <h4>Select the Event</h4>
+   
+    <div align="center" class="event-list">
+<select name="optone" class="col-sm-3" size="1" onchange="setOptions(document.myform.optone.options[document.myform.optone.selectedIndex].value,document.myform.opttwo);" required>
+<option value=" " selected="selected" disabled>Select Event type </option>
+<option value="1">Musical Events</option>
+<option value="2">Dance Events</option>
+<option value="3">Literary Events </option>
+<option value="4">Fine Art Events</option>
+<option value="5">Technical Events</option>
+<option value="6">Dramatics Events </option>
+<option value="7">LAN games</option>
+<option value="8"> Other Attractions</option>
+
+</select>
+<select name="opttwo" class="col-sm-3"size="1" onchange="setOptions(document.myform.opttwo.options[document.myform.opttwo.selectedIndex].value,document.myform.optthree);">
+<option value=" " selected="selected">Please select the Event</option>
+</select><br> <br>
+</div>
+    
+<br>
+  <div>
+   	<h4>Enter Your Full Name</h4>
+    <div class=" input-group col-lg-7">
+      <span class="input-group-addon glyphicon glyphicon-user"></span>
+      <input type="text" class="form-control" placeholder="Name" required>
+    </div>
+  </div>
+  <br>
+
+  <h4>Enter Your College Name</h4>
+  <div class=" input-group col-lg-7">
+    <span class="input-group-addon ">C</span>
+    <input type="text" class="form-control" placeholder="College Name" required>
+  </div>
+<br>
+
+  <h4>Enter Your Email id</h4>
+  <div class="input-group  col-lg-7">
+    <span class="input-group-addon glyphicon glyphicon-envelope "></span>
+    <input type="email" class="form-control" placeholder="Email id" required>
+  </div>
+<br>
+  <h4>Enter Your Phone Number</h4>
+  <div class="input-group  col-lg-7">
+    <span class="input-group-addon glyphicon glyphicon-earphone"></span>
+    <input maxlength="10" class="form-control" placeholder="Phone Number" required>
+  </div>
+<br>
+  <button type="submit" class="btn btn-primary "id="role" >Register</button>
+  </form>
+</div>
+<!-- Custom Theme JavaScript -->
+    <script src="js/kalanjali.js"></script>
+	
+</body>
+</html>
